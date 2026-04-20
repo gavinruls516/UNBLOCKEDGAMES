@@ -7,8 +7,8 @@ import { useState, useMemo } from 'react';
 import { Search, Gamepad2, LayoutGrid, Info, Github } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import gamesData from './games.json';
-import GameCard from './components/GameCard';
-import GameModal from './components/GameModal';
+import GameCard from './components/GameCard.jsx';
+import GameModal from './components/GameModal.jsx';
 
 const CATEGORIES = ['All', 'Puzzle', 'Action', 'Arcade', 'Retro'];
 
